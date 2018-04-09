@@ -1,0 +1,5 @@
+project('mod_tile', ['cpp','c'])
+iniparser_include = include_directories('.')
+subdir('includes')
+subdir('iniparser3.0b')
+subdir('src')
